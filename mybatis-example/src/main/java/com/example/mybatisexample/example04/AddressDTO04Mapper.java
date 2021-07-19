@@ -26,7 +26,7 @@ public interface AddressDTO04Mapper extends BaseMapper<Address> {
     @Results(value = {
             @Result(column = "u.create_time", property = "userCreateTime"),
             @Result(column = "a.id", property = "id"),
-            @Result(column = "a.create_time", property = "addressCreateTime"),
+            @Result(column = "a.create_time", property = "addressCreateTime")
     })
     @Select("select * from address a join user u " +
             "on u.id = a.user_id " +
