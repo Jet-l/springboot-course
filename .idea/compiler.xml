@@ -8,8 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mybatis-example" />
+        <module name="spring-example" />
         <module name="springboot-course" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot-spring-example" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
