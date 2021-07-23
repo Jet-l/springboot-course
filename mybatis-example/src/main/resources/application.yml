@@ -2,7 +2,7 @@ spring:
   application:
     name: mybatis-example
   datasource:
-    url: 'jdbc:mysql://localhost:3306/db_hkjt?
+    url: 'jdbc:mysql://localhost:3306/webtest?
     createDatabaseIfNotExist=true
     &serverTimezone=Asia/Shanghai'
     username: root

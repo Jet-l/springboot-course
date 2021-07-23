@@ -14,7 +14,7 @@ public class AddressDTO05Test {
 
     @Test
     public void list_xml_test(){
-        for(AddressDTO05 a:addressMapper05.listAddressDTOs("东北林业大学")){
+        for(AddressDTO05 a:addressMapper05.listAddressDTOs("harbin")){
             log.debug("{}/{}",
                     a.getId(),
                     a.getUser().getName());

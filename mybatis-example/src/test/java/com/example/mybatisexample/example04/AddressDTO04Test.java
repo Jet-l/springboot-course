@@ -18,14 +18,14 @@ public class AddressDTO04Test {
 
     @Test
     public void list_test(){
-        for (AddressDTO04 a:addressDTO04Mapper.list("东北林业大学")){
+        for (AddressDTO04 a:addressDTO04Mapper.list("harbin")){
             log.debug("{}",a);
         }
     }
 
     @Test
     public void list_test2(){
-        for (AddressDTO04 a:addressDTO04Mapper.list2("东北林业大学")){
+        for (AddressDTO04 a:addressDTO04Mapper.list2("harbin")){
             log.debug("{}",a);
         }
     }
