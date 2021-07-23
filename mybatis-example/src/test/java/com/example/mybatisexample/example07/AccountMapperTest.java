@@ -1,4 +1,4 @@
-package com.example.mybatisexample;
+package com.example.mybatisexample.example07;
 
 import com.example.mybatisexample.entity.Account;
 import com.example.mybatisexample.example07.AccountService07;
