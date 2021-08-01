@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: springmvc-examples
+  jackson:
+    default-property-inclusion: non_null
+
+logging:
+  level:
+    root: warn
+    com:
+      example: debug
+  pattern:
+    console: '%-5level %C.%M[%line] - %msg%n'
+
+
+server:
+  port: 8080
+
+my:
+  secretkey: 'R28K42ZEJ8LWRHU5'
+  salt: '636eac2534bcfcb0'
+

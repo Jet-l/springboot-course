@@ -1,0 +1,18 @@
+POST http://localhost:8080/api/example09/users
+Content-Type: application/json
+
+{
+  "id": 88,
+  "name": "qwe"
+
+}
+
+###
+GET http://localhost:8080/api/example09/users
+Accept: application/json
+
+###
+GET http://localhost:8080/api/example09/user/12
+Accept: application/json
+
+###
