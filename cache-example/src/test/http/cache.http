@@ -1,0 +1,23 @@
+GET http://localhost:8080/api/users
+Accept: application/json
+
+###
+GET http://localhost:8080/api/users/2
+Accept: application/json
+
+###
+GET http://localhost:8080/api/users/1
+Accept: application/json
+
+###
+PATCH http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "id": "1",
+  "name": "LIU"
+}
+###
+DELETE http://localhost:8080/api/users/1
+###
+GET http://localhost:8080/api/users/

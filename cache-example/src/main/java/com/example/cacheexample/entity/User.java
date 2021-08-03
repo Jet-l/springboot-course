@@ -1,4 +1,4 @@
-package com.example.springmvcexamples.example09.gatway.entity;
+package com.example.cacheexample.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

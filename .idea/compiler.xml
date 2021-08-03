@@ -9,8 +9,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mybatis-example" />
         <module name="springmvc-examples" />
+        <module name="cache-example" />
         <module name="spring-example" />
+        <module name="redis-example" />
         <module name="springboot-course" />
+        <module name="jpa-examples" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
